@@ -1,6 +1,4 @@
-from turtle import Turtle, Screen
-
-screen = Screen()
+from turtle import Turtle
 
 POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE = 20
@@ -34,7 +32,6 @@ class Snake:
         self.segments.clear()
         self.create_snake()
         self.head = self.segments[0]
-
 
     def extend(self):
         self.add_segment(self.segments[-1].position())
