@@ -1,4 +1,4 @@
-from snakeCLASS import Snake
+from snakeclass import Snake
 from turtle import Turtle, Screen
 from scoreboard import Scoreboard
 import time
